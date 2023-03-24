@@ -1,0 +1,22 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.item{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left:10px;
+    height: 200px;
+    width: 200px;
+    transition: .3s all ease;
+}
+
+.item:hover{
+    scale: 1.5;
+    background-color: #237;
+}
